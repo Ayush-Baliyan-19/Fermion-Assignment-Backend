@@ -39,4 +39,3 @@ register_socket_events(sio)
 # Wrap FastAPI with Socket.IO ASGI app
 app = socketio.ASGIApp(sio, other_asgi_app=fastapi_app)
 
-if __name__
